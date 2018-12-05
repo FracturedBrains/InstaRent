@@ -9,6 +9,15 @@ app.get('/', (req,res) => {
 app.get('/login', (req,res) => {
   res.render('login')
 });
+app.get('/direct_messages', (req,res) => {
+  res.render('direct_messages')
+});
+app.get('/alerts', (req,res) => {
+  res.render('alerts')
+});
+app.get('/rent', (req,res) => {
+  res.render('rent')
+});
 
 // app.post('/login', (req,res) => {
 // })
