@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Alerts</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Alerts</h1>
+    <h2>Create an Alert</h2>
+    <h4>Name</h4>
+    <textarea name="name" rows="1" cols="80">name</textarea>
+<form onsubmit="myFunction()">
+  <input type="radio" name="gender" value="Door Issues" checked> Door Issues<br>
+  <input type="radio" name="gender" value="Security" checked> Security<br>
+  <input type="radio" name="gender" value="lights Out"> Lights Out<br>
+  <input type="radio" name="gender" value="Gas Leak"> Gas Leak<br>
+  <input type="radio" name="gender" value="Roof Leak"> Roof Leak<br>
+  <input type="radio" name="gender" value="Plumbing Issues"> Plumbing Issues<br>
+  <input type="radio" name="gender" value="Noise Complaint"> Noise Complaint<br>
+  <input type="radio" name="gender" value="Out of Order Elevator" checked> Out of Order Elevator<br>
+  <input type="radio" name="gender" value="Moving Request"> Moving Request<br>
+  <input type="radio" name="gender" value="graffiti"> Graffiti<br>
+  <input type="radio" name="gender" value="other"> Other <textarea name="other" rows="1" cols="25"></textarea><br>
+  <input type="submit" value="Submit">
+</form>
+  <script>
+    function myFunction() {
+        alert("The form was submitted");
+      }
+  </script>
+  </body>
+</html>
